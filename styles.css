@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+
+body {
+    font-family:'Urbanist', sans-serif;
+    margin:10px;
+}
+
+header{
+
+    text-align: left; font-size: 50px; color:tomato;
+}
+
+.titel {
+    margin-bottom:0px; margin-top:10px;
+}
+
+.titel a{
+    
+    text-decoration: none;
+    color: tomato;
+}
+
+nav{
+    background-color: darkgrey;
+    margin-left:0px;
+}
+
+li{
+    color:white;
+}
+
+nav a{
+    text-decoration: none; color:white;
+}
+nav a:hover{
+background-color: black;
+}
+
+ul{
+    margin-top:0px; margin-bottom: 10px;
+    font-size: 80%;
+    list-style-type: none;
+}
+
+.intro {
+    font: 25px bold; width: 100%;
+
+}
+
+.uitgelicht_item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: tomato;
+    width: 33,333%;
+    margin: 10px;
+    padding: 10px;
+}
+    
+    .uitgelicht_item_tekst h1 {
+        font-size: 20px;
+    }
+
+    .uitgelicht_item p {
+        font-size: 15px;
+    }
+    
+    .uitgelicht_item img {
+        width: 200px;
+    }
+
+.link_omroepflevoland {
+        text-decoration: none; 
+        color:tomato;
+    }
+
+    .video_met_uitleg {
+        border-style: solid;
+        border-color: tomato;
+        background-color: lightgrey;
+        margin: 10px;
+        padding: 10px;
+    }
+
+.prijsvraag_formulier {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.prijsvraag {
+    border-style: solid;
+    border-color: tomato;
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+}
+ @media (min-width:800px){
+     li {
+         display: inline;
+     }
+     .uitgelicht {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .twee_naast_elkaar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+ }
